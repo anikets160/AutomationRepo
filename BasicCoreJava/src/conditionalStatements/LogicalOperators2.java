@@ -8,12 +8,12 @@ public class LogicalOperators2 {
 		
 		//OR ||
 		
-		//int cet =128;
+		int cet =128;
 		int IIT = 30;
 		
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter your CET score");
-		int cet = scanner.nextInt();
+		//Scanner scanner = new Scanner(System.in);
+		//System.out.println("Enter your CET score");
+		//int cet = scanner.nextInt();
 		
 		if(cet>=80 || IIT>=40)
 		{
