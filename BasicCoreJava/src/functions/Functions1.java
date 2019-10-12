@@ -13,6 +13,7 @@ public class Functions1 {
 		// Calling non static function of another class
 		NonStaticFunctions object = new NonStaticFunctions();
 		System.out.println(object.Sum(11, 22));
+		NonStaticFunctions.Multiply(4, 7);
 	}
 
 	// public static void Sum(int a,int b)
